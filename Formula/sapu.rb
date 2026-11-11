@@ -8,22 +8,22 @@ class Sapu < Formula
   on_macos do
     on_arm do
       url "https://github.com/depapp/sapu/releases/download/v0.2.0/sapu-darwin-arm64"
-      sha256 "53b2f2006e2420c167905049e6842fa13e8383a9af3af5a0c01f3e000ace27ef"
+      sha256 "46d35cb0cbfb1be89d55fb1b5f0b49fb29f62b7b8a2c8c0d61f5dd3a65d36e81"
     end
     on_intel do
       url "https://github.com/depapp/sapu/releases/download/v0.2.0/sapu-darwin-amd64"
-      sha256 "033e0d34ed34699cbd91b46d2b8af954e9880cb5d13fef6efd973644c009242c"
+      sha256 "8b4d4721fde046933ad6e7dad427d58bbccc940651065fd2cb10a90fccbff25c"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/depapp/sapu/releases/download/v0.2.0/sapu-linux-arm64"
-      sha256 "60219fd439eb100164a4ef327576703dde11e23f1bd34ed27dab4321774bc2a7"
+      sha256 "5fb070882e2f40d5bf6ff490d5c549bea63309c24fe9a4a041e34e8c91fa919c"
     end
     on_intel do
       url "https://github.com/depapp/sapu/releases/download/v0.2.0/sapu-linux-amd64"
-      sha256 "44b00aafa1ace4be878813bc403d6ccf02122a0a1742f7dc23480afea9c0d316"
+      sha256 "4a93bd4ef9bea343fcb85008c23184bc6120942bc5e0cf255df4b0cca7971f57"
     end
   end
 
